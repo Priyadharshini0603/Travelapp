@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navBarColor">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">
+        <a href="/" class="brand-logo">
           <img className="logo" src="./images/blue.png" alt="logo" />
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">

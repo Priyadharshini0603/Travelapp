@@ -1,0 +1,98 @@
+.App-header {
+  background-color: rgb(29, 29, 70);
+  color: white;
+  padding: 1px;
+}
+.header_para {
+  font-family: Lucida;
+  margin-right: 80px;
+  text-align: right;
+}
+h5 {
+  font-family: Lucida;
+  margin-right: 40px;
+  margin-top: -15px;
+  text-align: right;
+}
+.navBarColor {
+  background-color: teal;
+}
+.nav-wrapper ul li a {
+  font-size: 16px;
+}
+.nav-wrapper ul li a:active {
+  background-color: brown;
+}
+.nav-wrapper ul li a:hover {
+  color: cyan;
+}
+.logo {
+  height: 120px;
+  margin-left: 30px;
+  margin-top: -55px;
+}
+.coverpage {
+  margin-top: -42px;
+  background-image: url("./Images/c.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.heading {
+  color: rgb(233, 233, 241);
+  font-weight: 600;
+  font-size: 60px;
+  align-items: center;
+  padding-top: 220px;
+  margin-left: 40px;
+}
+.paragraph {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -30px;
+  margin-left: 80px;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(56, 56, 56, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+.browser-default {
+  border: 1px solid rgb(228, 226, 226);
+  width: 300px;
+  border-radius: 2px;
+}
+.date {
+  border: 1px solid rgb(216, 209, 209);
+  width: 300px;
+  background-color: white;
+  border-radius: 2px;
+  height: 47px;
+}
+.search {
+  border: none;
+  width: 280px;
+  height: 48px;
+  border-radius: 50px;
+  color: black;
+  background-color: rgb(43, 41, 41);
+  text-align: center;
+}
+.searchbar input {
+  margin: 20px;
+  color: white;
+  padding: 10px;
+}
+.material-icons {
+  padding: 9px;
+  margin-left: -40px;
+  color: white;
+}

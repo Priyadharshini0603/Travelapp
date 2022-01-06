@@ -14,22 +14,28 @@ export const Footer = () => {
           <option value="3">Hamphi</option>
         </select>
       </div>
-
-      <div class="date">
-     <label>Check-In</label>
-        <input type="date" placeholder="Check In"></input>
+      
+      <div >
+        <label>Check-In</label>
+       <div class="date">
+        <input  type="date" placeholder="Check In"></input></div>
       </div>
-
-      <div class="date">
-     <label>Check-Out</label>
-        <input type="date" placeholder="check Out"></input>
+     
+      
+      <div>
+        <label>Check-Out</label>
+       <div class="date">
+        <input  type="date" placeholder="Check Out"></input></div>
       </div>
+      
+      <div>
+        <br/>
       <div class="search">
         <i class="material-icons">
           search
           <input type="text" className="searchbar" placeholder="Search" />
         </i>
-      </div>
+        </div></div>
     </div>
   );
 };

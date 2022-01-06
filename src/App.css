@@ -61,39 +61,45 @@ h5 {
 .form {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(56, 56, 56, 0.5);
+  background-color: rgba(22, 22, 22, 0.5);
   padding: 20px;
   width: 100%;
 }
 .form label{
-   color:white;
-   display:flex;
-   font-size:18px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  color:rgb(12, 6, 6);
+  display:flex;
+  font-size:16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .browser-default {
   border: 1px solid rgb(228, 226, 226);
   width: 300px;
   border-radius: 2px;
 }
-.date {
-  border: 1px solid rgb(216, 209, 209);
+.date{
+  border: 1px solid rgb(228, 226, 226);
   width: 300px;
   background-color: white;
   border-radius: 2px;
   height: 47px;
+ 
+}
+
+.formdiv{
+  display:flex;
 }
 .search {
   border: none;
   width: 280px;
   height: 48px;
-  border-radius: 50px;
+  border-radius:50px;
   color: black;
   background-color: rgb(43, 41, 41);
   text-align: center;
 }
-.searchbar input {
-  margin: 20px;
+.searchbar::placeholder {
+  margin-top: 20px;
   color: white;
   padding: 10px;
 }

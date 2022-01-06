@@ -4,6 +4,7 @@ export const Footer = () => {
   return (
     <div className="form">
       <div>
+     <label>Destination</label>
         <select class="browser-default">
           <option value="" disabled selected>
             Bangalore
@@ -15,10 +16,12 @@ export const Footer = () => {
       </div>
 
       <div class="date">
+     <label>Check-In</label>
         <input type="date" placeholder="Check In"></input>
       </div>
 
       <div class="date">
+     <label>Check-Out</label>
         <input type="date" placeholder="check Out"></input>
       </div>
       <div class="search">

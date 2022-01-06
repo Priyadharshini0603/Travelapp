@@ -65,6 +65,12 @@ h5 {
   padding: 20px;
   width: 100%;
 }
+.form label{
+   color:white;
+   display:flex;
+   font-size:18px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .browser-default {
   border: 1px solid rgb(228, 226, 226);
   width: 300px;

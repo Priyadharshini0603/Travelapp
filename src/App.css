@@ -61,15 +61,16 @@ h5 {
 .form {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(22, 22, 22, 0.5);
+  background-color:#483D8B;
   padding: 20px;
   width: 100%;
 }
 .form label{
   justify-content: space-between;
-  color:rgb(12, 6, 6);
+  color:white;
   display:flex;
-  font-size:16px;
+  font-size:17px;
+  font-weight:bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .browser-default {

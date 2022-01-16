@@ -30,12 +30,14 @@ export const Footer = () => {
       
       <div>
         <br/>
-      <div class="search">
+    <div>
+        <div class="search">
         <i class="material-icons">
           search
           <input type="text" className="searchbar" placeholder="Search" />
         </i>
-        </div></div>
+        </div>  </div>
+    </div>
     </div>
   );
 };
